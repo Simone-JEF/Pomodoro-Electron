@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro</title>
+    <link rel="stylesheet" href="../assets/main.css">
+</head>
+<body>
+    <div class="content">
+        <div class="cta" id="start">
+            <div class="play"></div>
+        </div>
+        <div class="cta" id="reset">
+            <div class="reset"></div>
+        </div>
+        <div class="cta" id="pause">
+            <div class="pause pause-l"></div>
+            <div class="pause pause-r"></div>
+        </div>
+        <div class="top-div">
+            <div class="timer">
+                <div class="study-timer">
+                    <p>Study Time</p>
+                    <h1><span id="study-mins">25</span>:<span id="study-secs">00</span></h1>
+                </div>
+                <div class="break-timer">
+                    <p>Break Time</p>
+                    <h1><span id="break-mins">05</span>:<span id="break-secs">00</span></h1>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-div">
+            <div class="cycles">
+                <h2>Cycles</h2>
+                <h1><span id="cycles">0</span></h1>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
