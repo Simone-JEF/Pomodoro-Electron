@@ -22,6 +22,10 @@ If you didn't get any error you can proceed.
 
 After the installation download the zip folder or clone the repository on your computer, then open it inside your terminal.
 
+Install The necessary packages using: 
+```
+npm install --save-dev electron
+```
 To run the application type:
 ```
 npm start
