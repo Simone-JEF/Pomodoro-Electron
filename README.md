@@ -25,6 +25,7 @@ After the installation download the zip folder or clone the repository on your c
 Install The necessary packages using: 
 ```
 npm install --save-dev electron
+npm install --save-dev electron-builder
 ```
 To run the application type:
 ```
