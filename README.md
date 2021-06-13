@@ -32,4 +32,4 @@ To run the application type:
 npm start
 ```
 
-### Btw you can install the application by downloading the installer in the [releases](https://github.com/Simone-JEF/pomodoro-electron/releases) tab
+##### Btw you can install the application by downloading the installer in the [releases](https://github.com/Simone-JEF/pomodoro-electron/releases) tab
