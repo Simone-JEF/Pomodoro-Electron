@@ -3,14 +3,43 @@
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
-  "dependencies": {
-    "electron": "^13.1.2"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "electron-reload": "^1.5.0"
+    "electron": "^13.1.2",
+    "electron-builder": "^22.11.7"
   },
   "scripts": {
-    "start": "electron ."
+    "postinstall": "install-app-deps",
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "0.1",
+    "dmg": {
+      "contents": [
+        {
+          "x": 110,
+          "y": 150
+        },
+        {
+          "x": 240,
+          "y": 150,
+          "type": "link",
+          "path": "/Applications"
+        }
+      ]
+    },
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb"
+      ]
+    },
+    "win": {
+      "target": "NSIS",
+      "icon": "build/icon.ico"
+    }
   },
   "keywords": [],
   "author": "",
