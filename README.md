@@ -10,7 +10,7 @@
 2. 5 minutes break time
 3. Every three cycles the break time is 25 minutes
 
-## Installation (You can run it in terminal to avoid installation)
+## Portabile installation via Terminal
 You'll need [Node.js](https://nodejs.org/it/) to run the application.
 
 Check your installation by running:
@@ -31,3 +31,5 @@ To run the application type:
 ```
 npm start
 ```
+
+### Btw you can install the application by downloading the installer in the [releases](https://github.com/Simone-JEF/pomodoro-electron/releases) tab
