@@ -10,7 +10,7 @@
 2. 5 minutes break time
 3. Every three cycles the break time is 25 minutes
 
-## Portabile installation via Terminal
+## Portable installation via Terminal
 You'll need [Node.js](https://nodejs.org/it/) to run the application.
 
 Check your installation by running:
